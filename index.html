@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>مدرسة اليرموك | حملة التوعية بالجرائم الإلكترونية</title>
+    <meta property="og:title" content="حملة التوعية ضد الجرائم الإلكترونية - مدرسة اليرموك">
+    <meta property="og:description" content="برنامج توعوي للطلاب حول مخاطر السب والشتم الإلكتروني وكيفية الحماية القانونية.">
+    <meta property="og:image" content="brochure.png"> 
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#008080">
+
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #008080; 
+            --accent-color: #f39c12; 
+            --bg-color: #f8fafb;
+        }
+
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), #004d4d);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 5px solid var(--accent-color);
+        }
+
+        .school-name {
+            font-size: 1.1em;
+            opacity: 0.9;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        h1 { margin: 10px 0; font-size: 2em; }
+
+        .container {
+            max-width: 850px;
+            margin: -40px auto 50px;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        .video-container {
+            width: 100%;
+            border-radius: 12px;
+            overflow: hidden;
+            background: #000;
+            margin-top: 20px;
+        }
+
+        video { width: 100%; display: block; }
+
+        .brochure-img {
+            max-width: 100%;
+            border-radius: 10px;
+            border: 2px solid #eee;
+            margin-top: 15px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .brochure-img:hover { transform: scale(1.02); }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            background: var(--primary-color);
+            color: white;
+            padding: 12px 35px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover { background: #005656; }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: #777;
+            font-size: 0.95em;
+        }
+
+        .footer-line { border-top: 1px solid #ddd; margin: 20px auto; width: 50%; }
+    </style>
+</head>
+<body>
+
+<header>
+    <span class="school-name">إدارة التعليم بمنطقة الجوف - مدرسة اليرموك الثانوية</span>
+    <h1>حملة التوعية ضد الجرائم الإلكترونية</h1>
+    <p>احمِ نفسك.. واحترم غيرك</p>
+</header>
+
+<div class="container">
+    
+    <div class="card">
+        <h2 style="color: var(--primary-color);">🎥 المحتوى المرئي التوعوي</h2>
+        <p>شاهد هذا المقطع للتعرف على أثر التنمر الإلكتروني والمسؤولية القانونية</p>
+        <div class="video-container">
+            <video controls poster="brochure.png">
+                <source src="video.mp4" type="video/mp4">
+                متصفحك لا يدعم تشغيل الفيديو.
+            </video>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2 style="color: var(--primary-color);">📄 الدليل الإرشادي (البرشور)</h2>
+        <p>انقر على الصورة للتكبير، أو استخدم الزر أدناه للحفظ</p>
+        <a href="brochure.png" target="_blank">
+            <img src="brochure.png" alt="برشور مدرسة اليرموك" class="brochure-img">
+        </a>
+        <br>
+        <a href="brochure.png" download class="btn">💾 تحميل البرشور كصورة</a>
+    </div>
+
+</div>
+
+<footer>
+    <div class="footer-line"></div>
+    <p>مقدم من مدرسة اليرموك الثانوية - قسم النشاط الطلابي</p>
+    <p>مدير المدرسة : <b>حمد فريح المعيقل</b></p>
+</footer>
+
+</body>
+</html>
